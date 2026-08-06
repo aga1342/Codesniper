@@ -1494,7 +1494,7 @@ local function buildGUI()
         footer.Text = '<font color="#8888AA">Click to copy: </font><font color="#a78bfa"><b>discord.gg/</b></font>'
     end)
     footerBtn.MouseLeave:Connect(function()
-        footer.Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>XCmntHbDm</b></font>'
+        footer.Text = '<font color="#8888AA"></font><font color="#a78bfa"><b></b></font>'
     end)
 
     -- ===== MINIMIZED FRAME =====
