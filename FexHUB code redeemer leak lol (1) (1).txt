@@ -1486,12 +1486,12 @@ local function buildGUI()
         Parent = ContentFrame,
     })
     footerBtn.MouseButton1Click:Connect(function()
-        local link = "discord.gg/fexhub"
+        local link = "discord.gg/XCmntHbDm"
         if setclipboard then pcall(function() setclipboard(link) end)
         elseif toclipboard then pcall(function() toclipboard(link) end) end
     end)
     footerBtn.MouseEnter:Connect(function()
-        footer.Text = '<font color="#8888AA">Click to copy: </font><font color="#a78bfa"><b>discord.gg/XCmntHbDm</b></font>'
+        footer.Text = '<font color="#8888AA">Click to copy: </font><font color="#a78bfa"><b>discord.gg/</b></font>'
     end)
     footerBtn.MouseLeave:Connect(function()
         footer.Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>XCmntHbDm</b></font>'
@@ -1746,7 +1746,7 @@ end
 
 repeat task.wait() until game:IsLoaded()
 
--- ===================== FEXHUB - STARTUP SPLASH =====================
+-- ===================== AURAHUB - STARTUP SPLASH =====================
 do
 	local Players = game:GetService("Players")
 	local LP2 = Players.LocalPlayer
