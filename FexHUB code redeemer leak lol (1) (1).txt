@@ -47,7 +47,7 @@ local LocalPlayer = Players.LocalPlayer
 local HttpService = game:GetService("HttpService")
 
 -- ===== CONFIG PERSISTENCE =====
-local CONFIG_PATH = "FexHub_AutoCode_config.json"
+local CONFIG_PATH = "AuraHub_AutoCode_config.json"
 
 local hasFS = (writefile and readfile and isfile) and true or false
 
@@ -772,7 +772,7 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "FexHUB_TopBar"
+screenGui.Name = "AuraUB_TopBar"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = playerGui
 
@@ -849,7 +849,7 @@ titleLabel.Name = "Title"
 titleLabel.Size = UDim2.new(0, 310, 0, 34)
 titleLabel.Position = UDim2.new(0, 24, 0, 8)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text = "FexHUB"
+titleLabel.Text = "AuraHUB"
 titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 titleLabel.TextSize = 26
 titleLabel.Font = Enum.Font.GothamBlack
@@ -868,7 +868,7 @@ subtitleLabel.Name = "Subtitle"
 subtitleLabel.Size = UDim2.new(0, 310, 0, 20)
 subtitleLabel.Position = UDim2.new(0, 24, 0, 42)
 subtitleLabel.BackgroundTransparency = 1
-subtitleLabel.Text = "by @zad & @999 & @jaxx & @ducky "
+subtitleLabel.Text = "by @ssmji23 "
 subtitleLabel.TextColor3 = Color3.fromRGB(160, 150, 180)
 subtitleLabel.TextSize = 13
 subtitleLabel.Font = Enum.Font.GothamMedium
@@ -1467,7 +1467,7 @@ local function buildGUI()
         Position = UDim2.new(0, 12, 0, 165),
         BackgroundTransparency = 1,
         RichText = true,
-        Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>fexhub</b></font>',
+        Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>XCmntHbDm</b></font>',
         TextColor3 = Color3.fromRGB(180, 175, 200),
         TextSize = 12,
         Font = Enum.Font.GothamBold,
@@ -1491,10 +1491,10 @@ local function buildGUI()
         elseif toclipboard then pcall(function() toclipboard(link) end) end
     end)
     footerBtn.MouseEnter:Connect(function()
-        footer.Text = '<font color="#8888AA">Click to copy: </font><font color="#a78bfa"><b>discord.gg/fexhub</b></font>'
+        footer.Text = '<font color="#8888AA">Click to copy: </font><font color="#a78bfa"><b>discord.gg/XCmntHbDm</b></font>'
     end)
     footerBtn.MouseLeave:Connect(function()
-        footer.Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>fexhub</b></font>'
+        footer.Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>XCmntHbDm</b></font>'
     end)
 
     -- ===== MINIMIZED FRAME =====
@@ -1512,7 +1512,7 @@ local function buildGUI()
         Position = UDim2.new(0, 10, 0, 0),
         BackgroundTransparency = 1,
         RichText = true,
-        Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>fexhub</b></font>',
+        Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>XCmntHbDm</b></font>',
         TextColor3 = Color3.fromRGB(180, 175, 200),
         TextSize = 13,
         Font = Enum.Font.GothamBold,
@@ -1609,7 +1609,7 @@ local function buildGUI()
         Position = UDim2.new(0, 12, 0, 12),
         BackgroundTransparency = 1,
         Text = [[How to use:
-Fexhub, keep on this is the main system so you can use auto write, and auto-submit,
+Aurahub, keep on this is the main system so you can use auto write, and auto-submit,
 Auto-Write: When turned on, it will detect what SpyderSammy said at the top and will automatically type in the code box if your mouse or finger is hovering over the "Code Here..." box, make it as if you were actually typing a code,
 Auto-Submit: When on, it will auto submit the code after a custom amount of words its set to, by default it is set to submit after 1 word. Riddle solver, when turned on it will answer questions sammy asks, for example if he asks what the first og in the code box iwi"STRAWBERRYELEPHANT"]],
         TextColor3 = Color3.fromRGB(210, 200, 230),
@@ -1754,7 +1754,7 @@ do
 	local SoundService2 = game:GetService("SoundService")
 
 	local splashGui = Instance.new("ScreenGui")
-	splashGui.Name = "FexSplash"
+	splashGui.Name = "AuraSplash"
 	splashGui.ResetOnSpawn = false
 	splashGui.DisplayOrder = 999
 	splashGui.IgnoreGuiInset = true
@@ -1798,7 +1798,7 @@ do
 	titleSplash.Size = UDim2.new(1,0,0,70)
 	titleSplash.Position = UDim2.new(0,0,0,0)
 	titleSplash.BackgroundTransparency = 1
-	titleSplash.Text = "FEXHUB"
+	titleSplash.Text = "AURAHUB"
 	titleSplash.TextColor3 = Color3.fromRGB(255,255,255)
 	titleSplash.Font = Enum.Font.GothamBlack
 	titleSplash.TextSize = 48
@@ -2034,7 +2034,7 @@ local function createHeadText(character)
 	textLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
 	textLabel.AnchorPoint = Vector2.new(0.5, 0.5)
 	textLabel.BackgroundTransparency = 1
-	textLabel.Text = "discord.gg/fexhub"
+	textLabel.Text = "discord.gg/XCmntHbDm"
 	textLabel.TextColor3 = COLOR_BLACK
 	textLabel.Font = Enum.Font.FredokaOne
 	textLabel.TextScaled = true
