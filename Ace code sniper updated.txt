@@ -569,12 +569,12 @@ local BrandImage = Instance.new("ImageLabel")
 BrandImage.Name = "Logo"
 BrandImage.Size = UDim2.fromScale(1, 1)
 BrandImage.BackgroundTransparency = 1
-BrandImage.Image = "rbxassetid://71891923282375"
+BrandImage.Image = ""
 BrandImage.ScaleType = Enum.ScaleType.Fit
 BrandImage.Parent = BrandMark
 addCorner(BrandImage, 15)
 
-makeLabel(Header, "Title", "ACE CODE SNIPER", UDim2.fromOffset(180, 25), UDim2.fromOffset(56, 17), 15, COLORS.White, Enum.Font.GothamBold)
+makeLabel(Header, "Title", "JSM CODE SNIPER", UDim2.fromOffset(180, 25), UDim2.fromOffset(56, 17), 15, COLORS.White, Enum.Font.GothamBold)
 
 -- TOP RIGHT TOGGLE BUTTON (UPDATED FOR MOBILE & PC) --
 local AutoWriteButton = Instance.new("TextButton")
@@ -864,7 +864,7 @@ end
 ConsoleOutput:GetPropertyChangedSignal("AbsoluteSize"):Connect(updateConsoleCanvas)
 task.defer(updateConsoleCanvas)
 
-local DiscordFooter = makeLabel(Window, "DiscordFooter", "discord.gg/aceduels", UDim2.fromOffset(140, 19), UDim2.new(0.5, -70, 0, 346), 10, COLORS.White, Enum.Font.GothamBold)
+local DiscordFooter = makeLabel(Window, "DiscordFooter", "discord.gg/r9pMMQ7qt", UDim2.fromOffset(140, 19), UDim2.new(0.5, -70, 0, 346), 10, COLORS.White, Enum.Font.GothamBold)
 DiscordFooter.TextXAlignment = Enum.TextXAlignment.Center
 DiscordFooter.BackgroundColor3 = COLORS.Window
 DiscordFooter.BackgroundTransparency = 1
