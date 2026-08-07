@@ -502,11 +502,11 @@ workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(watchViewport)
 watchViewport()
 
 local BackgroundImage = Instance.new("ImageLabel")
-BackgroundImage.Name = "ACEBackground"
+BackgroundImage.Name = "JSMbackground"
 BackgroundImage.Size = UDim2.new(1, 0, 1, 0)
 BackgroundImage.Position = UDim2.fromOffset(0, 0)
 BackgroundImage.BackgroundTransparency = 1
-BackgroundImage.Image = "rbxassetid://137692455767789"
+BackgroundImage.Image = ""
 BackgroundImage.ImageTransparency = 0
 BackgroundImage.ScaleType = Enum.ScaleType.Stretch
 BackgroundImage.ZIndex = 1
