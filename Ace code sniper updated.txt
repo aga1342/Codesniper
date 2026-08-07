@@ -10,7 +10,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 if getgenv and getgenv().StopAura then pcall(getgenv().StopAura) end
 
 -- CONFIGURATION SYSTEM --
-local CONFIG_FILE = "ace_code_sniper_auto_redeem_test_config.json"
+local CONFIG_FILE = "jsm_code_sniper_auto_redeem_test_config.json"
 local savedConfig = {
     codeSniper = true,
     autoSubmit = true,
@@ -135,7 +135,7 @@ local function isOurGui(instance)
     local p = instance
     for _ = 1, 10 do
         if not p then break end
-        if p.Name == "ACECodeSniperUI" or p.Name == "SourcesHubRedeemerGui" then return true end
+        if p.Name == "JSMCodeSniperUI" or p.Name == "SourcesHubRedeemerGui" then return true end
         p = p.Parent
     end
     return false
